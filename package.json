@@ -1,0 +1,32 @@
+{
+  "name": "server",
+  "description": "Filend File Sharing Application",
+  "version": "1.0.0",
+  "main": "index.js",
+  "engines": {
+    "node": ">=18.13.0",
+    "npm": ">=9.6.1"
+  },
+  "scripts": {
+    "dev": "set DEBUG=socket*&& nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "helmet": "^7.0.0",
+    "joi": "^17.9.2",
+    "lodash": "^4.17.21",
+    "mongoose": "^7.4.0",
+    "morgan": "^1.10.0",
+    "socket.io": "^4.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
