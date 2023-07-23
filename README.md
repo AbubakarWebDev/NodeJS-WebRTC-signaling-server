@@ -14,6 +14,9 @@ The NodeJS WebRTC Signaling Server built using Node.js, Express, and Socket.IO. 
 3. The signaling server handles the room-based communication and relays SDP offers and answers between the peers using WebSocket connections.
 4. Peers use the received SDP data to establish direct peer-to-peer WebRTC connections on the frontend.
 
+## Related Repositories
+- [Frontend Repository](https://github.com/AbubakarWebDev/ReactJS-WebRTC-file-sharing-system): This repository holds the frontend code that integrates with this signaling server. For a complete understanding and to see our WebRTC implementation in action, be sure to check out the frontend repo as well.
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
